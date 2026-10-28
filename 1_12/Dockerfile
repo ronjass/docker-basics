@@ -2,7 +2,7 @@ FROM ubuntu:24.04
 
 EXPOSE 5001
 
-WORKDIR /usr/src/app
+WORKDIR /myapp
 
 RUN apt-get update && apt-get install -y curl
 RUN curl -sL https://deb.nodesource.com/setup_16.x | bash
